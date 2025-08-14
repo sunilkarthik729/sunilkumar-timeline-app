@@ -1,35 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Timeline Application</title>
-</head>
-<body>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
     <header>
-        <div class="logo">Logo</div>
-        <button id="toggle-theme-btn">Toggle Theme</button>
+      <div class="logo">Logo</div>
+      <button id="toggle-theme-btn">Toggle Theme</button>
     </header>
     <nav>
-        <!--this container is for filters/placeholders-->
+      <!--this container is for filters/placeholders-->
+      <span class="filter-placeholder"></span>
     </nav>
-    <main>
-        <section id="timeline">
-            <!--the Event marker will be done by here-->
-        </section>
-    </main>
-    <div id="modal">
-        <!--this container is for future pop-ups & upcoming updates-->
-    </div>
+  <main>
+  <section id="timeline"></section>
+</main>
 
-    <article class="content">
-        <!--this will be added later-->
-    </article>
-    <figure>
-        <!--this container is for adding images that we are going to use-->
-    </figure>
-    <footer>
-        <!--this will be the end of webpage where we are going to add our personal informations and credits-->
-    </footer>
+<div id="modal">
+  <div class="modal-content">
+    <span id="close-modal">&times;</span>
+    <div id="modal-body"></div>
+  </div>
+</div>
+
+<footer>
+  <p>© 2025 Timeline App</p>
+</footer>
+
+<script src="./script.js"></script>
 </body>
 </html>
