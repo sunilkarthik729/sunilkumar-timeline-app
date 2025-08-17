@@ -1,0 +1,15 @@
+{
+  "name": "data-art-assignments",
+  "version": "1.0.0",
+  "description": "This is the static skeleton for the **Timeline App** built as part of the **Data Art** internship task.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.9.2"
+  }
+}
